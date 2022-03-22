@@ -36,7 +36,7 @@ spec:
     spec:
       containers:
       - name: follower
-        image: us-docker.pkg.dev/google-samples/containers/gke/gb-redis-follower:v2
+        image: bugrayilmaz123/csapp:v$(BUILD_NUMBER)
         resources:
           requests:
             cpu: 100m

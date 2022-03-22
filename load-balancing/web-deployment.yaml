@@ -29,7 +29,7 @@ spec:
         run: web
     spec:
       containers:
-      - image: us-docker.pkg.dev/google-samples/containers/gke/hello-app:1.0
+      - image: bugrayilmaz123/csapp:v$(BUILD_NUMBER)
         imagePullPolicy: IfNotPresent
         name: web
         ports:

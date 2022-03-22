@@ -30,6 +30,6 @@ spec:
     spec:
       containers:
       - name: hello-app
-        image: us-docker.pkg.dev/google-samples/containers/gke/hello-app:1.0
+        image: bugrayilmaz123/csapp:v$(BUILD_NUMBER)
 # [END gke_migrating_node_pool_node_pools_deployment_deployment_web]
 ---

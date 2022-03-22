@@ -32,7 +32,7 @@ spec:
         app: workload-metrics
     spec:
       containers:
-      - image: us-docker.pkg.dev/google-samples/containers/workload-metrics:1.0
+      - image: bugrayilmaz123/csapp:v$(BUILD_NUMBER)
         imagePullPolicy: Always
         name: workload-metrics
         ports:

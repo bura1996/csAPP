@@ -45,7 +45,7 @@ spec:
             topologyKey: kubernetes.io/hostname
       # Pod anti affinity config END
       containers:
-      - image: us-docker.pkg.dev/google-samples/containers/gke/hello-app-redis:1.0  # change to the image name you built
+      - image: bugrayilmaz123/csapp:v$(BUILD_NUMBER)  # change to the image name you built
         name: hello-app
         # Readiness probe config START
         readinessProbe:
